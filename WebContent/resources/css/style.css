@@ -1,0 +1,179 @@
+.error {
+	color: red;
+	border: 2px solid white;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+.alreadyFavourite {
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+.success {
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+.empty {
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+.nullInput {
+	color: red;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
+}
+
+table {
+	/* border-collapse:collapse; */
+	/* border-bottom:1px solid gray; */
+	font-family: 'Open Sans Condensed', sans-serif;
+	width: 40%;
+	color: white;
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 25px;
+	border-width: 2px;
+}
+
+th {
+	border-bottom: 2px solid white;
+	background: none repeat scroll 0 0;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+tr {
+	border-top: 1px solid gray;
+	text-align: center;
+}
+
+#container {
+	width: 350px;
+	padding-left: 35%;
+	padding-top: 5%;
+}
+
+.box {
+	border: 1px solid #000 !important;
+	width: 200px;
+	height: 100px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', arial, sans;
+}
+
+#button1, #button2 {
+	width: 300px;
+	height: 40px;
+	font-family: 'Open Sans Condensed', arial, sans;
+	background-color: rgba(222, 222, 222, 0.5);
+	font-size: 16px;
+}
+
+#button-container {
+	text-align: center;
+}
+
+p {
+	font-family: 'Open Sans Condensed', arial, sans;
+}
+
+#testStavros {
+	background-image:
+		url("${pageContext.request.contextPath}/resources/images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.radiobuttonLabel {
+	font-family: 'Open Sans Condensed', arial, sans;
+	padding-left: 10px;
+}
+
+<
+link href ='http: //fonts.googleapis.com /css?family=Open+Sans+Condensed:
+	 300' rel ='stylesheet ' type ='text /css'> <style type ="text /css">.form-style-8
+	{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 100px;
+	padding: 30px;
+	background: #ff0080;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form-style-8 h2 {
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #e4e0e0;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	/* margin: -30px -30px 30px -30px; */
+	text-align: center;
+}
+
+.form-style-8 input[type="text"], .form-style-8 input[type="date"],
+	.form-style-8 input[type="datetime"], .form-style-8 input[type="email"],
+	.form-style-8 input[type="number"], .form-style-8 input[type="search"],
+	.form-style-8 input[type="time"], .form-style-8 input[type="url"],
+	.form-style-8 input[type="password"], .form-style-8 textarea,
+	.form-style-8 select {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+
+.form-style-8 input[type="button"], .form-style-8 input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.form-style-8 input[type="button"]:hover, .form-style-8 input[type="submit"]:hover
+	{
+	background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color: #34CACA;
+}
+</
+style
+>
