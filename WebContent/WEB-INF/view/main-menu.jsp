@@ -6,7 +6,7 @@
 	href="${pageContext.request.contextPath}/resources/css/style.css" />
 
 <body
-	background="${pageContext.request.contextPath}/resources/images/background.jpg" style= "background-repeat:no-repeat;">
+	background="${pageContext.request.contextPath}/resources/images/background.jpg" style= "background-repeat:no-repeat; background-size: 1600px 850px;">
 
 	<div class="form-style-8">
 

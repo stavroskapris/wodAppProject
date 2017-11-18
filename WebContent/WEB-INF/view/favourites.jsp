@@ -5,7 +5,7 @@
 <html>
 
 <head>
-<title>Athletes Registration Form</title>
+<title>Favoutite Workouts</title>
 
 <link type="text/css" rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/css/style.css" />

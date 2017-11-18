@@ -4,7 +4,7 @@
 <!DOCTYPE>
 <html>
 <head>
-<title>Athletes Registration Form</title>
+<title>Athletes Update Form</title>
 
 <link type="text/css" rel="stylesheet"
 	href="${pageContext.request.contextPath}/resources/css/style.css" />

@@ -31,7 +31,7 @@
 			<h1> Work Out of the Day :</h1>
 			<img
 				src="${pageContext.request.contextPath}/resources/images/${randomWorkout.id}.jpg"
-				alt="workoutid" width="250px" height="150px">
+				alt="workoutid" width="350px" height="250px">
 				<h1> ${randomWorkout.title} </h1>
 				<a href="http://localhost:8080/wodApp" style="color: white; text-decoration: underline;"> Main menu</a>
 		</div>

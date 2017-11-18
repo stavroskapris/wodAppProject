@@ -3,7 +3,9 @@
 
 <!DOCTYPE>
 <html>
-<head></head>
+<head>
+<title>Workout Of The Day</title>
+</head>
 
 
 <link type="text/css" rel="stylesheet"
@@ -39,9 +41,10 @@
 		<div align="center" style="color: white">
 			<h1> Work Out of the Day :</h1>
 			<img
-			 src="${pageContext.request.contextPath}/resources/images/giphy-downsized.gif" 
-			 alt="workoutid" width="250px" height="150px">
-				<%-- src="${pageContext.request.contextPath}/resources/images/${randomWorkout.id}.jpg" --%>
+			alt="workoutid" width="350px" height="250px"
+			 src="${pageContext.request.contextPath}/resources/images/${randomWorkout.id}.jpg">
+			 
+				<%-- src="${pageContext.request.contextPath}/resources/images/giphy-downsized.gif"  --%>
 				<!-- src="//i.imgur.com/ifCQQWy.gif"  -->
 				
 				
@@ -72,7 +75,7 @@
 		<c:url var="updateLink" value="/athlete/showFormForUpdate">
 			<c:param name="athleteId" value="${athlete.id}" />
 		</c:url>
-		<br> <br> <br> <br> <br> <br>
+		<br> <br> <br> <br> <br> 
 
 		<div align="center" style="color: white">
 			<a href="${addLink}" style="color: white">Add to Favourites  </a><strong>|</strong> <a
