@@ -21,8 +21,6 @@ public interface AthleteDAO {
 
 	public Athlete getAthleteById(int theId);
 
-  public void updateAthlete(String userName, String firstName, String lastName, int theId, Gender gender);
-
-	
+	public void updateAthlete(String userName, String firstName, String lastName, int theId, Gender gender);
 
 }

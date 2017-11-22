@@ -22,31 +22,22 @@ public class RandomWorkoutsDAOImpl implements RandomWorkoutsDAO {
 
 	public RandomWorkouts getWorkout() {
 		Session currentSession = sessionFactory.getCurrentSession();
-
 		Query<RandomWorkouts> theQuery = currentSession.createQuery("from RandomWorkouts", RandomWorkouts.class);
-
 		List<RandomWorkouts> randomWorkoutsList = theQuery.getResultList();
 		Random randomGenerator;
-		randomGenerator =new Random();
-        int index = randomGenerator.nextInt(randomWorkoutsList.size());
-        
+		randomGenerator = new Random();
+		int index = randomGenerator.nextInt(randomWorkoutsList.size());
 		return randomWorkoutsList.get(index);
 	}
 
 	@Override
-	public List<RandomWorkouts> getFavourites(String userName){
-		
+	public List<RandomWorkouts> getFavourites(String userName) {
 		Session currentSession = sessionFactory.getCurrentSession();
-
 		Query query1 = currentSession.createQuery("from Athlete where userName = :userName");
 		query1.setParameter("userName", userName);
-		
-	    List<Athlete> athletes=query1.getResultList();
-
-		Athlete athlete=athletes.get(0);
-		List<RandomWorkouts> athletesFavourites=athlete.getWorkouts();
-		
+		List<Athlete> athletes = query1.getResultList();
+		Athlete athlete = athletes.get(0);
+		List<RandomWorkouts> athletesFavourites = athlete.getWorkouts();
 		return athletesFavourites;
 	}
-
 }

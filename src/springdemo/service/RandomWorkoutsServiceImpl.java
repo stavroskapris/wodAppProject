@@ -18,15 +18,12 @@ public class RandomWorkoutsServiceImpl implements RandomWorkoutsService {
 	@Override
 	@Transactional
 	public RandomWorkouts getWorkout() {
-
 		return randomWorkoutsDAO.getWorkout();
 	}
 
 	@Override
 	@Transactional
 	public List<RandomWorkouts> getFavourites(String userName) {
-		
 		return randomWorkoutsDAO.getFavourites(userName);
 	}
-
 }
