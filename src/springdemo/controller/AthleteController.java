@@ -125,7 +125,7 @@ public class AthleteController {
 	}
 
 	@RequestMapping("/delete")
-	public String deleteCustomer(@RequestParam("workoutId") int workoutId, @RequestParam("userName") String userName,
+	public String deleteFavWorkout(@RequestParam("workoutId") int workoutId, @RequestParam("userName") String userName,
 			RedirectAttributes redirectAttributes) {
 		athleteService.deleteFavWourkout(workoutId, userName);
 		redirectAttributes.addAttribute("userName", userName);
